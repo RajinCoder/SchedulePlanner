@@ -1,0 +1,79 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.scheduleBackground {
+  width: 45vw;
+  min-height: 81vh;
+  max-height: 81vh;
+  border: 2px solid black;
+  background-color: #B9ECDA;
+  margin: 10vh 0;
+  overflow:scroll;
+}
+.dropdown-menu {
+  max-height: 20vh;
+  overflow: scroll;
+}
+.entry {
+  display: flex;
+  justify-content:space-around;
+  height: 14%;
+  border: 10px black;
+  padding: 2% 0px;
+}
+#task {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+  border: none;
+  padding: 0 10px 0 10px;
+  height: 100%;
+  outline: none;
+  border-radius: 100%;
+  width:100%;
+}
+#addBtn {
+  border-radius: 100%;
+  font-size: 100%;
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 2px solid black;
+  
+}
+
+#task-card{
+  border: 2px solid black;
+  border-radius: 16px;
+  width: 55%;
+}
+#task-card-body{
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+#heading-card{
+  width: 60%;
+  border-radius: 0px;
+  border: 2px solid black;
+  margin: 5% 20%;
+}
+#heading-card-body {
+  display: flex;
+  justify-content: center;
+  font-size: 250%;
+  font-family: 'Inconsolata', monospace;
+}
+#plusSign{
+  height: fit-content;
+  width: fit-content;
+}
+#time-btn {
+  border-radius: 0;
+  border: 2px solid black;
+  font-size:100%;
+}
